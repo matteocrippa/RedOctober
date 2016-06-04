@@ -1,0 +1,6 @@
+framework module RedOctober {
+  umbrella header "RedOctober-umbrella.h"
+
+  export *
+  module * { export * }
+}

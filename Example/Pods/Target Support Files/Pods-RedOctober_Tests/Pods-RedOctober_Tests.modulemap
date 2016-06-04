@@ -1,0 +1,6 @@
+framework module Pods_RedOctober_Tests {
+  umbrella header "Pods-RedOctober_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
