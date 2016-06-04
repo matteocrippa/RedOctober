@@ -9,10 +9,10 @@
 Pod::Spec.new do |s|
   s.name             = 'RedOctober'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RedOctober.'
+  s.summary          = 'Experimental swift library to communicate via iBeacons shared minor/major values in a cross platform environment'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+RedOctober is an experimental swift library developed in order to communicate via iBeacons shared minor/major values in a cross platform environment.
                        DESC
 
   s.homepage         = 'https://github.com/matteocrippa/RedOctober'
