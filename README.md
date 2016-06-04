@@ -1,6 +1,6 @@
 # RedOctober
 
-[![CI Status](http://img.shields.io/travis/Matteo Crippa/RedOctober.svg?style=flat)](https://travis-ci.org/Matteo Crippa/RedOctober)
+[![CI Status](http://img.shields.io/travis/matteocrippa/RedOctober.svg?style=flat)](https://travis-ci.org/matteocrippa/RedOctober)
 [![Version](https://img.shields.io/cocoapods/v/RedOctober.svg?style=flat)](http://cocoapods.org/pods/RedOctober)
 [![License](https://img.shields.io/cocoapods/l/RedOctober.svg?style=flat)](http://cocoapods.org/pods/RedOctober)
 [![Platform](https://img.shields.io/cocoapods/p/RedOctober.svg?style=flat)](http://cocoapods.org/pods/RedOctober)
