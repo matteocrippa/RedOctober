@@ -19,17 +19,12 @@ RedOctober is an experimental swift library developed in order to communicate vi
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Matteo Crippa' => '@ghego20' }
   s.source           = { :git => 'https://github.com/matteocrippa/RedOctober.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/ghego20'
+  s.social_media_url = 'https://twitter.com/ghego20'
 
   s.ios.deployment_target = '8.4'
 
   s.source_files = 'RedOctober/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'RedOctober' => ['RedOctober/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'BluetoothKit'
 end

@@ -2,6 +2,7 @@
 
 import Quick
 import Nimble
+import BluetoothKit
 import RedOctober
 
 class TableOfContentsSpec: QuickSpec {

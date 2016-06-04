@@ -1,22 +1,28 @@
 {
   "name": "RedOctober",
   "version": "0.1.0",
-  "summary": "A short description of RedOctober.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/RedOctober",
+  "summary": "Experimental swift library to communicate via iBeacons shared minor/major values in a cross platform environment",
+  "description": "RedOctober is an experimental swift library developed in order to communicate via iBeacons shared minor/major values in a cross platform environment.",
+  "homepage": "https://github.com/matteocrippa/RedOctober",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Matteo Crippa": "matteo@boostco.de"
+    "Matteo Crippa": "@ghego20"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/RedOctober.git",
+    "git": "https://github.com/matteocrippa/RedOctober.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/ghego20",
   "platforms": {
-    "ios": "8.0"
+    "ios": "8.4"
   },
-  "source_files": "RedOctober/Classes/**/*"
+  "source_files": "RedOctober/Classes/**/*",
+  "dependencies": {
+    "BluetoothKit": [
+
+    ]
+  }
 }

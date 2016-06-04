@@ -5,7 +5,7 @@ target 'RedOctober_Example' do
 
   target 'RedOctober_Tests' do
     inherit! :search_paths
-
+    pod 'BluetoothKit'
     pod 'Quick', '~> 0.8'
   pod 'Nimble', '~> 3.0'
   end

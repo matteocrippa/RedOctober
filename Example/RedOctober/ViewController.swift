@@ -6,9 +6,20 @@
 //  Copyright (c) 2016 Matteo Crippa. All rights reserved.
 //
 
+import RedOctober
 import UIKit
 
 class ViewController: UIViewController {
+
+    let rd = RedOctober()
+
+    @IBAction func startBroadcasting() {
+        rd.startBroadcasting("dummy1234567890")
+    }
+
+    @IBAction func startListening() {
+        rd.startListening()
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,4 +32,3 @@ class ViewController: UIViewController {
     }
 
 }
-
